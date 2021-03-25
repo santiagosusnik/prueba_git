@@ -1,0 +1,141 @@
+ 
+ *{
+margin:0px;
+padding:0px;
+}  
+
+ul,ol{
+list-style:none;
+}
+
+h1{
+font-family:tahoma;
+color:#8d8d8d;
+margin-left:50px;
+margin-bottom:10px;
+}
+
+h2{
+font-family:tahoma;
+color:#8d8d8d;
+text-align:center;
+
+}
+
+
+
+/*============MENU DESPLEGLABLE B=============*/
+
+
+#header-B{
+margin:10px auto;
+width:900px;
+height:300px;
+position:relative;
+
+}
+
+.nav-B{
+width:515px;
+height:60px;
+margin:10px auto;
+}
+
+.nav-B > li{
+margin-top:10px;
+float:left;
+}
+
+.nav-B li a{
+text-decoration:none;
+background:blue;
+color:#fff;
+padding:10px 12px;
+display:block;
+}
+
+.nav-B li a:hover{
+background:#7E9CF2;
+}
+
+.nav-B li ul {
+display:none;
+position:absolute;
+min-width:140px;
+}
+
+.nav-B li:hover > ul{
+display:block;
+}
+
+.nav-B  li ul li{
+position:relative;
+}
+
+.nav-B  li ul li ul{
+right:-120px;
+top:0;
+}
+
+
+/*============MENU DESPLEGLABLE C=============*/
+
+
+#header-c{
+margin:10px auto;
+width:900px;
+height:300px;
+position:relative;
+
+}
+.menu-c{
+width:500px;
+height:60px;
+background:white;
+margin:10px auto;
+}
+
+.uno-ul-unoli {
+margin-left:18px; /*centrado en referencia al contenedor menu-c*/
+}
+
+.uno-ul-unoli > li{
+margin-top:10px;
+display:inline-block;/* genera entre enlaces un margen de 2px , para solucionar poner un enlace sin tabular, uno al lado del otro*/
+}
+.uno-ul-unoli  li a{
+text-decoration:none;
+color:white;
+background:#C7973A;
+padding:10px 12px;
+display:block;
+}
+
+.uno-ul-unoli li a:hover{
+color:#707070;
+background:#F3BE6A;
+}
+
+.dos-ul-dosli{
+display:none;
+position:absolute;
+min-width:100px;
+}
+
+.uno-ul-unoli li:hover > .dos-ul-dosli{
+display:block;
+}
+
+.tres-ul-tresli{
+display:none;
+position:absolute;
+min-width:100px;
+right:-100px;
+top:80px;
+}
+
+.dos-ul-dosli li:hover > .tres-ul-tresli{
+display:block;
+}
+
+
